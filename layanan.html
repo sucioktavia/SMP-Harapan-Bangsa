@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan - SMP Harapan Bangsa</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Menambahkan Bootstrap untuk tampilan yang lebih profesional -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('assets/images/bg.webp'); /* Ubah dengan path gambar sesuai kebutuhan */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgba(255, 255, 255, 0.267); /* Sesuaikan warna teks agar kontras dengan latar belakang */
+            color: black; /* Warna teks menjadi hitam */
+        }
+
+        header, footer {
+            background-color: rgba(255, 255, 255, 0.9); /* Transparansi untuk kontras lebih baik */
+            padding: 15px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.9); /* Transparansi untuk kontras lebih baik */
+            padding: 15px 0;
+            text-align: center;
+            color: black; /* Warna teks footer menjadi hitam */
+        }
+
+        .card {
+            background-color: rgba(12, 12, 12, 0.909); /* Latar belakang hitam semi-transparan */
+            color: white; /* Warna teks putih untuk kontras */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 100%; /* Agar semua card memiliki tinggi yang sama */
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 200px; /* Sesuaikan tinggi gambar agar seragam */
+        }
+
+        .btn-primary {
+            background-color: #0f366c;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #082247;
+        }
+
+        .row > .col-md-4 {
+            display: flex;
+            align-items: stretch;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h1 class="text-center mb-4">Layanan SMP Harapan Bangsa</h1>
+        <p class="text-center mb-5">Sebagai sekolah unggulan, SMP Harapan Bangsa menyediakan berbagai layanan untuk mendukung perkembangan siswa di berbagai bidang.</p>
+
+        <!-- Layanan Grid -->
+        <div class="row">
+            <!-- Layanan Ekstrakurikuler -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/download.jpg" class="card-img-top" alt="Layanan Ekstrakurikuler">
+                    <div class="card-body">
+                        <h5 class="card-title"> Ekstrakurikuler</h5>
+                        <p class="card-text">Kami menawarkan berbagai kegiatan ekstrakurikuler yang mendukung perkembangan minat dan bakat siswa dalam berbagai bidang.</p>
+                        <a href="layanan-ekstrakurikuler.html" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Layanan Bimbingan Konseling -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/bk.jpg" class="card-img-top" alt="Layanan Bimbingan Konseling">
+                    <div class="card-body">
+                        <h5 class="card-title">Layanan Bimbingan Konseling</h5>
+                        <p class="card-text">Layanan bimbingan konseling membantu siswa dalam menghadapi tantangan emosional dan akademik, serta memberikan dukungan psikologis yang dibutuhkan.</p>
+                        <a href="layanan-bimbingan-konseling.html" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Layanan Kesehatan UKS -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/uks.png" class="card-img-top" alt="Layanan Kesehatan UKS">
+                    <div class="card-body">
+                        <h5 class="card-title">Layanan Kesehatan</h5>
+                        <p class="card-text">Unit Kesehatan Sekolah (UKS) menyediakan layanan medis bagi siswa untuk menjaga kesehatan dan kesejahteraan fisik mereka selama di sekolah.</p>
+                        <a href="layanan-kesehatan-uks.html" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SMP Harapan Bangsa</p>
+    </footer>
+
+    <!-- Bootstrap JS dan dependensinya -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

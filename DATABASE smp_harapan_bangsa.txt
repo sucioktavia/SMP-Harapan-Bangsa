@@ -1,0 +1,11 @@
+CREATE DATABASE smp_harapan_bangsa;
+
+USE smp_harapan_bangsa;
+
+CREATE TABLE pesan_kontak (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    pesan TEXT NOT NULL,
+    tanggal TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

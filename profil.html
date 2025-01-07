@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - SMP Harapan Bangsa</title>
+    <style>
+        /* Gambar latar belakang untuk seluruh halaman */
+        body {
+            background-image: url('assets/images/bg.webp'); /* Pastikan path gambar ini benar */
+            background-size: cover; /* Agar gambar menutupi seluruh halaman */
+            background-position: center; /* Agar gambar terpusat */
+            background-attachment: fixed; /* Agar gambar tetap saat halaman digulir */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Warna teks putih agar kontras dengan gambar latar belakang */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header */
+        header {
+            width: 100%;
+            background-color: #0f366c; /* Biru semi-transparan */
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 1; /* Agar header tetap di atas gambar */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white; /* Warna teks putih */
+            font-weight: bold;
+            font-size: 1.2rem; /* Ukuran font sedikit lebih besar */
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline; /* Menambahkan underline saat hover */
+        }
+
+        /* Menambahkan latar belakang semi-transparan hitam pada bagian konten utama */
+        section {
+            background-color: rgba(0, 0, 0, 0.5); /* Hitam semi-transparan */
+            padding: 60px 20px;
+            color: #fff; /* Warna teks putih agar kontras dengan latar belakang */
+        }
+
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        h1, h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .col-md-6 {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .social-media a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Tambahkan semi-transparan latar belakang di kontainer header agar teks lebih jelas */
+        header .container {
+            background-color: #0f366c; /* Biru semi-transparan */
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h1>Profil Sekolah</h1>
+                <p>Menjadi Sekolah Unggulan dengan Prestasi Gemilang, Menyiapkan Generasi Masa Depan yang Berkarakter dan Kompeten.</p>
+            </div>
+        </section>
+
+        <section class="vision-mission">
+            <div class="container">
+                <h2>Visi dan Misi</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Visi</h3>
+                        <p>Menjadi sekolah yang unggul dalam prestasi akademik dan pengembangan karakter siswa, serta berkontribusi terhadap kemajuan pendidikan di Indonesia.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Misi</h3>
+                        <ul>
+                            <li>Memberikan pendidikan berkualitas dengan pendekatan berbasis teknologi.</li>
+                            <li>Mengembangkan potensi siswa dalam bidang akademik dan non-akademik.</li>
+                            <li>Menanamkan nilai-nilai moral dan karakter kepada siswa untuk membentuk pribadi yang unggul.</li>
+                            <li>Menjalin kerja sama dengan masyarakat dan dunia usaha untuk meningkatkan kualitas pendidikan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="history">
+            <div class="container">
+                <h2>Sejarah SMP Harapan Bangsa</h2>
+                <p>SMP Harapan Bangsa didirikan pada tahun 2000 dengan tujuan untuk memberikan pendidikan berkualitas kepada generasi muda. Sejak didirikan, sekolah ini telah berkembang pesat dengan fasilitas yang lengkap dan tenaga pendidik yang berkompeten. SMP Harapan Bangsa selalu berupaya untuk memberikan pendidikan yang tidak hanya mengutamakan kecerdasan intelektual, tetapi juga pengembangan karakter siswa.</p>
+            </div>
+        </section>
+
+        <section class="facilities">
+            <div class="container">
+                <h2>Fasilitas Kami</h2>
+                <p>SMP Harapan Bangsa dilengkapi dengan fasilitas yang mendukung proses belajar mengajar yang optimal, antara lain:</p>
+                <ul>
+                    <li>Ruang kelas yang nyaman dan dilengkapi dengan teknologi pembelajaran modern.</li>
+                    <li>Laboratorium IPA dan komputer yang lengkap dan terbaru.</li>
+                    <li>Perpustakaan dengan koleksi buku yang sangat beragam.</li>
+                    <li>Lapangan olahraga untuk kegiatan ekstrakurikuler dan olahraga.</li>
+                    <li>Ruang seni dan musik untuk mendukung kreativitas siswa.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>&copy; 2025 SMP Harapan Bangsa | All Rights Reserved</p>
+                <p>Alamat: Jl. Harapan No.1, Kota Harapan, Indonesia</p>
+                <p>Telepon: (021) 123-4567 | Email: info@smpharapanbangsa.sch.id</p>
+                <div class="social-media">
+                    <a href="https://facebook.com/smpharapanbangsa" target="_blank">Facebook</a>
+                    <a href="https://twitter.com/smpharapanbangsa" target="_blank">Twitter</a>
+                    <a href="https://instagram.com/smpharapanbangsa" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
